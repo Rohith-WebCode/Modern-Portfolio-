@@ -13,7 +13,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "mx-auto grid max-w-7xl grid-cols-1 gap-4 md:min-h-[18rem] md:grid-cols-3",
+        "mx-auto grid max-w-7xl grid-cols-1 gap-4 md:min-h-[18rem] md:grid-cols-2 lg:grid-cols-3",
         className
       )}>
       {children}
@@ -36,6 +36,7 @@ export const BentoGridItem = ({
 
 
   const handleCopy = () => {
+    console.log("Clicked copy button");
     const text = "RohithPrakash19@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
@@ -51,7 +52,7 @@ export const BentoGridItem = ({
         className
       )}>
       <div className="transition duration-200 group-hover/bento:translate-x-2">
-      <div className={`w-full relative `}>
+      <div className={`w-full`}>
         {img && (
           <img 
           src={img}
@@ -59,7 +60,7 @@ export const BentoGridItem = ({
           className={cn(imgClassName,'object-cover object-center')}
           />
         )}
-        {id === '3' && <GlobeDemo/>}
+        {id === '3' && <GlobeDemo/>} 
 
       {id==="2" && <CardDemo/>}
       </div>
@@ -67,8 +68,24 @@ export const BentoGridItem = ({
           className={cn(titleClassName,`mt-2 mb-2 font-bold text-neutral-600 dark:text-neutral-200`)}>
           {title}
         </div>
+        {  id === "5" && 
+            <div onClick={handleCopy}
+              className="pointer-events-auto flex items-center gap-2 justify-center text-center cursor-pointer"
+            >
+              {copied ? (
+                <TiTick className="text-green-500 text-2xl" />
+              ) : (
+                <FaCopy className="text-xl text-[#afb0b6]" />
+              )}
+              <p className=" xl:text-xl text-base font-medium text-[#afb0b6]">
+                rohithprakash19@gmail.com
+              </p>
+            </div>
+          
+      
+              }
         <div
-          className={cn("text-[#afb0b6] text-base font-generalsans font-normal")}>
+          className="text-[#afb0b6] text-xs lg:text-base font-generalsans">
           {description}
         </div>
         {id === "3" && 
@@ -82,23 +99,6 @@ export const BentoGridItem = ({
               </div>
               }
 
-        {  id === "5" && (
-      <div
-        onClick={handleCopy}
-        className="flex items-center gap-2 text-[#d2d0dd] justify-center text-center cursor-pointer"
-      >
-        {copied ? (
-          <TiTick className="text-green-500 text-2xl" />
-        ) : (
-          <FaCopy className="text-xl text-[#afb0b6]" />
-        )}
-        <p className=" xl:text-xl font-medium text-[#afb0b6]">
-          rohithprakash19@gmail.com
-        </p>
-      </div>
-    )
-
-        }
 
       </div>
       
