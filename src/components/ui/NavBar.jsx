@@ -14,7 +14,7 @@ const NavBar = ({
 }) => {
   const { scrollYProgress } = useScroll();
 
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     // Check if current is not undefined and is a number
@@ -24,6 +24,7 @@ const NavBar = ({
       // if (scrollYProgress.get() < 0.05) {
       //   setVisible(false);
       // } else {
+      
         if (direction < 0) {
           setVisible(true);
         } else {
@@ -58,7 +59,7 @@ const NavBar = ({
             className={cn(
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}>
-            <span className=" sm:block text-sm">{navItem.name}</span>
+            <span className="text-sm md:text-base">{navItem.name}</span>
           </Link>
         ))}
       </motion.div>

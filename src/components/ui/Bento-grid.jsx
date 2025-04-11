@@ -66,7 +66,7 @@ export const BentoGridItem = ({
       </div>
         <div
           className={cn(titleClassName,`mt-2 mb-2 font-bold text-neutral-600 dark:text-neutral-200`)}>
-          {title}
+         <h1>{title}</h1> 
         </div>
         {  id === "5" && 
             <div onClick={handleCopy}
@@ -77,7 +77,7 @@ export const BentoGridItem = ({
               ) : (
                 <FaCopy className="text-xl text-[#afb0b6]" />
               )}
-              <p className=" xl:text-xl text-base font-medium text-[#afb0b6]">
+              <p className=" xl:text-xl md:text-lg text-base font-medium text-[#afb0b6]">
                 rohithprakash19@gmail.com
               </p>
             </div>
@@ -85,7 +85,7 @@ export const BentoGridItem = ({
       
               }
         <div
-          className="text-[#afb0b6] text-xs lg:text-base font-generalsans">
+          className="text-[#afb0b6] text-xs md:text-lg lg:text-base font-generalsans">
           {description}
         </div>
         {id === "3" && 
@@ -93,7 +93,7 @@ export const BentoGridItem = ({
               <button className="relative inline-flex h-12 w-90 overflow-hidden rounded-lg p-[1px]">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 py-1 text-sm font-medium  backdrop-blur-3xl">
-                <h2 className='bg-clip-text bg-gradient-to-b from-neutral-200 to-neutral-600 text-transparent font-Poppins'>Contact Me</h2> <FaArrowRight className='text-[#d2d0dd] ml-2'/> 
+                <h2 className='bg-clip-text bg-gradient-to-b from-neutral-200 to-neutral-600 text-transparent font-Poppins text-xs md:text-lg lg:text-base'>Contact Me</h2> <FaArrowRight className='text-[#d2d0dd] ml-2'/> 
                 </span>
               </button>
               </div>

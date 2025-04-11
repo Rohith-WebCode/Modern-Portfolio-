@@ -2,6 +2,7 @@ import Home from './pages/Home'
 import NavBar from './components/ui/NavBar'
 import Grid from './components/Grid';
 import { navItems } from './components/data/Data';
+import InfiniteCardsUI from './components/InfiniteCardsUI'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar navItems={navItems}/>
      <Home/>
      <Grid/>
+     <InfiniteCardsUI/>
     </div>
    </div>
   )

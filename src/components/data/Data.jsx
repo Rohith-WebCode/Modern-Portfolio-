@@ -13,7 +13,7 @@ export const gridItems = [
       className: "lg:col-span-1 md:col-span-1 md:row-span-1",
       imgClassName: "w-full sm:h-[276px] h-fit object-contain",
       titleClassName: "text-lg lg:text-xl font-semibold mb-2 text-white font-generalsans",
-      descriptionClassName: "text-[#afb0b6] text-xs lg:text-base font-generalsans",
+      descriptionClassName: "text-[#afb0b6] text-xs md:text-lg lg:text-base font-generalsans",
       spareImg: "",  
     },
     { 
@@ -24,7 +24,7 @@ export const gridItems = [
       className: "lg:col-span-1 md:col-span-1 md:row-span-1",
       imgClassName: "w-full sm:h-[276px] h-fit object-contain",
       titleClassName: "text-lg lg:text-xl font-semibold mb-2 text-white font-generalsans",
-      descriptionClassName: "text-[#afb0b6] text-xs lg:text-base font-generalsans",
+      descriptionClassName: "text-[#afb0b6] text-xs md:text-lg lg:text-base font-generalsans",
     },
     { 
       id:'3',
@@ -34,7 +34,7 @@ export const gridItems = [
       className: "lg:col-span-1 md:col-span-1 lg:row-span-2 ",
       imgClassName: "",
       titleClassName: "text-lg lg:text-xlfont-semibold mb-2 text-white font-generalsans",
-      descriptionClassName: "text-[#afb0b6] text-xs lg:text-base font-generalsans",
+      descriptionClassName: "text-[#afb0b6] text-xs md:text-lg lg:text-base font-generalsans",
       spareImg: "",  
     },
     { 
@@ -45,7 +45,7 @@ export const gridItems = [
       className: "lg:col-span-2 md:col-span-1 lg:row-span-2 xl:h-[28rem]",
       imgClassName: "w-full sm:h-[276px] h-fit object-contain",
       titleClassName: "text-lg lg:text-xl font-semibold mb-2 text-white font-generalsans",
-      descriptionClassName: "text-[#afb0b6] text-xs lg:text-base font-generalsans",
+      descriptionClassName: "text-[#afb0b6] text-xs md:text-lg lg:text-base font-generalsans",
       spareImg: "",  
     },
     { 
@@ -54,8 +54,8 @@ export const gridItems = [
       description:'',
       img:Img3,
       className: "lg:col-span-1 md:col-span-1 md:row-span-1 xl:h-[20rem]",
-      imgClassName: "w-full sm:h-[276px] h-fit object-contain mb-[-8rem]",
-      titleClassName: "text-[#afb0b6] text-lg lg:text-xl mb-2 text-center font-generalsans",
+      imgClassName: "w-full sm:h-[372px] md:h-[276px] h-fit object-contain mb-[-8rem]",
+      titleClassName: "text-white text-lg lg:text-xl mb-2 font-semibold text-center font-generalsans",
       descriptionClassName: "",
       spareImg: "",  
     },

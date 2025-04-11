@@ -1,8 +1,8 @@
-import React from 'react'
 import { Spotlight } from '../components/ui/Spotlight'
 import { BackgroundBeams } from "../components/ui/BackgroundBeams";
 import StarParticles from "../components/ui/StarParticles";
 import { FaLocationArrow } from 'react-icons/fa';
+import { TextGenerateEffect } from "../components/ui/text-generate-effect";
 const Home = () => {
   return (
     <div className='pb-20 pt-36'>
@@ -15,10 +15,10 @@ const Home = () => {
       <div className="h-screen w-full flex flex-col items-center justify-center antialiased absolute top-0 left-0">
       <BackgroundBeams />
       </div>
-      <div className='flex justify-center relative my-20 z-10'>
-      <div className='max-w-[80vw] md:max-w-[40rem] lg:max-w-[50vw] flex flex-col justify-center'>
-        <div className='py-4'>
-        <h1 className='text-[27px] sm:text-3xl md:text-5xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center font-Poppins font-bold'>Your Journey To The Infinite Web Begins Here.</h1>
+      <div className='flex justify-center relative my-20 z-10' >
+      <div className='max-w-[80vw] md:max-w-[40rem] lg:max-w-[50vw] flex flex-col justify-center my-4'>
+        <div className=''>
+       <TextGenerateEffect words= "Your Journey To The Infinite Web Begins Here" />
         </div>
       <p className=' md:tracking-wider my-4 text-sm md:text-lg text-[#d2d0dd] text-center font-Poppins font-bold'>Your Vision, My Code – Let’s Build Something Extraordinary.</p>
       <div className='flex justify-center'>
