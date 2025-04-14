@@ -3,6 +3,7 @@ import NavBar from './components/ui/NavBar'
 import Grid from './components/Grid';
 import { navItems } from './components/data/Data';
 import InfiniteCardsUI from './components/InfiniteCardsUI'
+import { CardSpotlightUI } from './components/CardSpotlight'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Home/>
      <Grid/>
      <InfiniteCardsUI/>
+     <CardSpotlightUI/>
     </div>
    </div>
   )

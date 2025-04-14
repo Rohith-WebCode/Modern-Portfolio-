@@ -40,8 +40,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: 	black;
-    overscroll-behavior: none;
+    overscroll-behavior: smooth;
+    
   }
+  .invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
   
   @keyframes spotlight {
     0% {
@@ -53,3 +58,4 @@
       transform: translate(-50%, -40%) scale(1);
     }
   }
+  

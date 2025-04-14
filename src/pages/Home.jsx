@@ -16,10 +16,9 @@ const Home = () => {
       <BackgroundBeams />
       </div>
       <div className='flex justify-center relative my-20 z-10' >
-      <div className='max-w-[80vw] md:max-w-[40rem] lg:max-w-[50vw] flex flex-col justify-center my-4'>
-        <div className=''>
-       <TextGenerateEffect words= "Your Journey To The Infinite Web Begins Here" />
-        </div>
+      <div className='max-w-[80vw] md:max-w-[rem] lg:max-w-[65vw] flex flex-col justify-center my-4'>
+       <h2><TextGenerateEffect words= "Your Journey To The Infinite Web Begins Here" /></h2>
+      
       <p className=' md:tracking-wider my-4 text-sm md:text-lg text-[#d2d0dd] text-center font-Poppins font-bold'>Your Vision, My Code – Let’s Build Something Extraordinary.</p>
       <div className='flex justify-center'>
       <button className="relative inline-flex h-12  overflow-hidden rounded-lg p-[1px] ">

@@ -1,7 +1,9 @@
 import Img from '../../assets/grid1.png'
 import Img2 from '../../assets/grid3.png'
 import Img3 from '../../assets/grid4.png'
-
+import { FaLaptopCode } from 'react-icons/fa';       // Web Development
+import { MdPhoneIphone } from 'react-icons/md';      // Responsive Web Design
+import { BiCodeAlt } from 'react-icons/bi';          // API Integration
 
 export const gridItems = [
     
@@ -76,3 +78,25 @@ export const navItems = [
       link: "#contact",
     },
   ];
+  export const Services = [
+    {
+      title: "Web Development",
+      description: "I build fast, scalable, and modern websites using the latest technologies.",
+      img: FaLaptopCode, // example icon component
+      className: "md:top-0 md:left-0", // top-left
+    },
+    {
+      title: "Responsive Web Design",
+      description: "I create mobile-friendly, stunning designs that adapt to any screen size.",
+      img: MdPhoneIphone,
+      className: "md:top-35 md:right-0", // right and shifted down
+      classNameforcard: "md:mt-[2.2rem]"
+    },
+    {
+      title: "API Integration",
+      description: "Seamlessly integrate third-party APIs to enhance site functionality.",
+      img: BiCodeAlt,
+      className: "md:bottom-0 md:left-0", // bottom-left
+    },
+  ];
+  
