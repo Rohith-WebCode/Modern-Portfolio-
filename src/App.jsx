@@ -4,6 +4,7 @@ import Grid from './components/Grid';
 import { navItems } from './components/data/Data';
 import InfiniteCardsUI from './components/InfiniteCardsUI'
 import { CardSpotlightUI } from './components/CardSpotlight'
+import RecentProjects from './components/RecentProjects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <Grid/>
      <InfiniteCardsUI/>
      <CardSpotlightUI/>
+     <RecentProjects/>
     </div>
    </div>
   )

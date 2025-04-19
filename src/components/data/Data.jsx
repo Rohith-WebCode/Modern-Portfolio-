@@ -1,10 +1,13 @@
 import Img from '../../assets/grid1.png'
 import Img2 from '../../assets/grid3.png'
 import Img3 from '../../assets/grid4.png'
-import { FaLaptopCode } from 'react-icons/fa';       // Web Development
-import { MdPhoneIphone } from 'react-icons/md';      // Responsive Web Design
-import { BiCodeAlt } from 'react-icons/bi';          // API Integration
-
+import { FaLaptopCode, FaReact,FaJs,FaNode,FaHtml5,FaCss3,FaPhp } from 'react-icons/fa';       
+import { MdPhoneIphone } from 'react-icons/md';      
+import { BiCodeAlt } from 'react-icons/bi';          
+import P1 from '../../assets/project9_img.png'
+import P2 from '../../assets/project11_img.png'
+import { SiTailwindcss,SiMongodb,SiVercel,SiRender,SiExpress, SiMysql, SiBootstrap } from "react-icons/si";
+import { GiMagicSwirl } from "react-icons/gi";
 export const gridItems = [
     
     { 
@@ -90,13 +93,50 @@ export const navItems = [
       description: "I create mobile-friendly, stunning designs that adapt to any screen size.",
       img: MdPhoneIphone,
       className: "md:top-35 md:right-0", // right and shifted down
-      classNameforcard: "md:mt-[2.2rem]"
+      classNameforcard: "md:mt-[1.5rem]"
     },
     {
       title: "API Integration",
-      description: "Seamlessly integrate third-party APIs to enhance site functionality.",
+      description: "I build seamless API integrations that boost performance and user experience.",
       img: BiCodeAlt,
       className: "md:bottom-0 md:left-0", // bottom-left
     },
   ];
   
+
+  export const Projects = [
+
+    {
+      id:1,
+      title:" ClarityPix – AI Text-to-Image Generator",
+      dec: "ClarityPix is an AI-powered tool that turns user-input text into stunning images using the ClipDrop text-to-image API. Designed with a sleek and user-friendly interface, it enables users to visualize ideas instantly through AI-generated art.",
+      img: P1,
+      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress,GiMagicSwirl],
+      link:"https://claritypix.onrender.com"
+    },
+    {
+      id:2,
+      title:" Bubbly – Real-Time Chat Application",
+      dec: "Bubbly is a modern real-time chat app with 1-on-1 messaging. Built with Socket.io for instant communication, Zustand for state management, and styled using DaisyUI. Messages are stored in MongoDB, and the app is fully responsive.",
+      img: P2,
+      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress,GiMagicSwirl],
+      link:"https://claritypix.onrender.com"
+    },
+    {
+      id:1,
+      title:" ClarityPix – AI Text-to-Image Generator",
+      dec: "ClarityPix is an AI-powered tool that turns user-input text into stunning images using the ClipDrop text-to-image API. Designed with a sleek and user-friendly interface, it enables users to visualize ideas instantly through AI-generated art.",
+      img: P1,
+      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress,GiMagicSwirl],
+      link:"/https://claritypix.onrender.com"
+    },
+    {
+      id:1,
+      title:" ClarityPix – AI Text-to-Image Generator",
+      dec: "ClarityPix is an AI-powered tool that turns user-input text into stunning images using the ClipDrop text-to-image API. Designed with a sleek and user-friendly interface, it enables users to visualize ideas instantly through AI-generated art.",
+      img: P1,
+      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress,GiMagicSwirl],
+      link:"/https://claritypix.onrender.com"
+    },
+
+  ]
