@@ -3,10 +3,10 @@ import {Services} from "../components/data/Data"
 
 export function CardSpotlightUI() {
   return (
-    <div className="my-6">
+    <div className="py-20">
       <h1 className ="text-2xl md:text-5xl text-neutral-50 text-center">Services Tailored to Your Vision</h1>
 
-      <div className={`md:relative mx-auto h-[500px] my-4`}>
+      <div className={`md:relative mx-auto md:h-[500px] my-4`}>
    {Services.map((data, index)=>(
     <div className={`md:absolute ${data.className}`} key={index}>
       <CardSpotlight className={`w-full md:w-[42rem] my-5 md:my-0 ${data.classNameforcard}`}>
