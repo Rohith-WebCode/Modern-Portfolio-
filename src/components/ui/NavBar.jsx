@@ -25,6 +25,7 @@ const NavBar = ({
       //   setVisible(false);
       // } else {
       
+      
         if (direction < 0) {
           setVisible(true);
         } else {
@@ -33,6 +34,7 @@ const NavBar = ({
       // }
     }
   });
+  console.log("scrollYProgress", scrollYProgress.get(), "prev", scrollYProgress.getPrevious());
 
   return (
     <AnimatePresence mode="wait">
@@ -53,14 +55,14 @@ const NavBar = ({
           className
         )}>
         {navItems.map((navItem, idx) => (
-          <Link
-            key={`link=${idx}`}
-            to={navItem.link}
+          <a
+            key={`link-${idx}`}
+            href={navItem.link}
             className={cn(
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}>
             <span className="text-sm md:text-base">{navItem.name}</span>
-          </Link>
+          </a>
         ))}
       </motion.div>
     </AnimatePresence>

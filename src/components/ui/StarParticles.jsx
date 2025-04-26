@@ -15,7 +15,7 @@ const StarParticles = () => {
         fullScreen: { enable: false },
         background: { color: "transparent" },
         particles: {
-          number: { value: 150, density: { enable: true, value_area: 1000 } },
+          number: { value: 30, density: { enable: true, value_area: 1000 } },
           shape: { type: "circle" },
           opacity: { value: 1, random: true },
           size: { value: 2, random: true },

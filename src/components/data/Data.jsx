@@ -1,12 +1,14 @@
 import Img from '../../assets/grid1.png'
 import Img2 from '../../assets/grid3.png'
 import Img3 from '../../assets/grid4.png'
-import { FaLaptopCode, FaReact,FaJs,FaNode,FaHtml5,FaCss3,FaPhp } from 'react-icons/fa';       
+import { FaLaptopCode, FaReact,FaJs,FaNode,FaHtml5,FaCss3,FaPhp,FaFilm  } from 'react-icons/fa';       
 import { MdPhoneIphone } from 'react-icons/md';      
 import { BiCodeAlt } from 'react-icons/bi';          
 import P1 from '../../assets/project9_img.png'
 import P2 from '../../assets/project11_img.png'
-import { SiTailwindcss,SiMongodb,SiVercel,SiRender,SiExpress, SiMysql, SiBootstrap } from "react-icons/si";
+import P3 from '../../assets/project8_img.png'
+import P4 from '../../assets/project1_img.png'
+import { SiTailwindcss,SiMongodb,SiCss3,SiExpress, SiMysql, SiBootstrap } from "react-icons/si";
 import { GiMagicSwirl } from "react-icons/gi";
 export const gridItems = [
     
@@ -77,8 +79,8 @@ export const navItems = [
       link: "#about",
     },
     {
-      name: "Contact",
-      link: "#contact",
+      name: "Projects",
+      link: "#projects",
     },
   ];
   export const Services = [
@@ -123,19 +125,19 @@ export const navItems = [
       link:"https://claritypix.onrender.com"
     },
     {
-      id:1,
-      title:" ClarityPix – AI Text-to-Image Generator",
-      dec: "ClarityPix is an AI-powered tool that turns user-input text into stunning images using the ClipDrop text-to-image API. Designed with a sleek and user-friendly interface, it enables users to visualize ideas instantly through AI-generated art.",
-      img: P1,
-      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress,GiMagicSwirl],
+      id:3,
+      title:" Netflix Clone",
+      dec: "A responsive, modern web application inspired by Netflix, developed to replicate core streaming platform functionalities. This project demonstrates my ability to work with real-world APIs, build interactive UIs, and manage user authentication efficiently.",
+      img: P3,
+      iconLists: [FaReact,SiCss3,FaFilm,FaJs],
       link:"/https://claritypix.onrender.com"
     },
     {
       id:1,
-      title:" ClarityPix – AI Text-to-Image Generator",
-      dec: "ClarityPix is an AI-powered tool that turns user-input text into stunning images using the ClipDrop text-to-image API. Designed with a sleek and user-friendly interface, it enables users to visualize ideas instantly through AI-generated art.",
-      img: P1,
-      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress,GiMagicSwirl],
+      title:" Shelftop — E-Commerce Shopping Cart Website",
+      dec: "Shelftop is a fully functional e-commerce website designed to provide a smooth and responsive shopping experience. Built with a clean UI and a focus on usability, the project simulates a real-world shopping platform with cart management, product listing, and interactive navigation.",
+      img: P4,
+      iconLists: [FaReact,SiCss3,FaNode,SiMongodb,SiExpress],
       link:"/https://claritypix.onrender.com"
     },
 

@@ -17,7 +17,7 @@ export function CardSpotlightUI() {
         <div>
         <h1 className="text-xl font-bold relative z-20 mt-2 text-white">{data.title}</h1>  
  
-       <p className="text-neutral-300 mt-3 relative z-20 md:text-sm ">
+       <p className="text-neutral-300 mt-3 relative z-20 text-sm ">
       {data.description}
        </p>
         </div>

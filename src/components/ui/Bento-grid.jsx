@@ -77,7 +77,7 @@ export const BentoGridItem = ({
               ) : (
                 <FaCopy className="text-xl text-[#afb0b6]" />
               )}
-              <p className=" xl:text-xl md:text-lg text-base font-medium text-[#afb0b6]">
+              <p className=" text-xs md:text-lg lg:text-base font-medium text-[#afb0b6]">
                 rohithprakash19@gmail.com
               </p>
             </div>
@@ -85,7 +85,7 @@ export const BentoGridItem = ({
       
               }
         <div
-          className="text-[#afb0b6] text-xs md:text-lg lg:text-base font-generalsans">
+          className="text-[#afb0b6] text-xs md:text-lg lg:text-base">
           {description}
         </div>
         {id === "3" && 
