@@ -4,7 +4,7 @@ import {Services} from "../components/data/Data"
 export function CardSpotlightUI() {
   return (
     <div className="py-20">
-      <h1 className ="text-2xl md:text-5xl text-neutral-50 text-center">Services Tailored to Your Vision</h1>
+      <h1 className ="text-lg md:text-3xl text-neutral-50 text-center font-bold">Services Tailored to Your <span className="Colorfull-text">Vision</span></h1>
 
       <div className={`md:relative mx-auto md:h-[500px] my-4`}>
    {Services.map((data, index)=>(

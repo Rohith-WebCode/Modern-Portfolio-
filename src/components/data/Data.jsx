@@ -82,6 +82,10 @@ export const navItems = [
       name: "Projects",
       link: "#projects",
     },
+    {
+      name: "Contact",
+      link: "#Contact",
+    },
   ];
   export const Services = [
     {

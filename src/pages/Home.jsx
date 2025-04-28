@@ -1,7 +1,7 @@
 import { Spotlight } from '../components/ui/Spotlight'
 import { BackgroundBeams } from "../components/ui/BackgroundBeams";
 import StarParticles from "../components/ui/StarParticles";
-import { FaLocationArrow } from 'react-icons/fa';
+import { FaArrowCircleRight, FaLocationArrow } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 const Home = () => {
   return (
@@ -17,17 +17,16 @@ const Home = () => {
       </div>
       <div className='flex justify-center relative my-20 z-10' >
       <div className='max-w-[80vw] md:max-w-[rem] lg:max-w-[65vw] flex flex-col justify-center my-4'>
-       <motion.h2 className='text-neutral-200 text-4xl md:text-5xl lg:text-6xl text-center font-bold py-4 leading-snug tracking-wide' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.4,duration:2}}>Your Journey To The Infinite Web Begins <span className='text-blue-500 dark:text-blue-500'>Here</span></motion.h2>
+       <motion.h2 className='text-neutral-200 text-4xl md:text-5xl lg:text-6xl text-center font-bold py-4 leading-snug tracking-wide' initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.4,duration:2}}>Your Journey To The Infinite Web Begins <span className='Colorfull-text'>Here</span></motion.h2>
       
       <p className=' md:tracking-wider my-4 text-sm md:text-lg text-[#d2d0dd] text-center font-Poppins font-bold'>Your Vision, My Code – Let’s Build Something Extraordinary.</p>
-      <div className='flex justify-center'>
-      <button className="relative inline-flex h-12  overflow-hidden rounded-lg p-[1px] ">
-        <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
-        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 py-1 text-sm font-medium  backdrop-blur-3xl">
-        <h2 className='bg-clip-text bg-gradient-to-b from-neutral-200 to-neutral-600 text-transparent font-Poppins'>Let's Connect
-        </h2> <FaLocationArrow className='text-[#d2d0dd] ml-2'/> 
-        </span>
-      </button>
+      <div className='flex justify-center mt-5'>
+         <button className="relative h-12  overflow-hidden p-[1px] rounded-full text-lg">
+                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
+                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-7 py-1 text-sm font-medium  backdrop-blur-3xl">
+                 <h2 className='text-white flex items-center gap-3 '> Get In Touch<FaArrowCircleRight/></h2> 
+                 </span>
+               </button>
       </div>
       </div>
       

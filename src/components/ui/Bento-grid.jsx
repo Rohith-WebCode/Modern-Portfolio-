@@ -1,4 +1,4 @@
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowCircleRight, FaArrowRight } from "react-icons/fa";
 import { cn } from "../../utils/cn";
 import {CardDemo} from "./GridSkillsImag";
 import {GlobeDemo} from './Gridglobe'
@@ -89,13 +89,8 @@ export const BentoGridItem = ({
           {description}
         </div>
         {id === "3" && 
-         <div className='flex justify-center py-4'>
-              <button className="relative inline-flex h-12 w-90 overflow-hidden rounded-lg p-[1px]">
-                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
-                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 py-1 text-sm font-medium  backdrop-blur-3xl">
-                <h2 className='bg-clip-text bg-gradient-to-b from-neutral-200 to-neutral-600 text-transparent font-Poppins text-xs md:text-lg lg:text-base'>Contact Me</h2> <FaArrowRight className='text-[#d2d0dd] ml-2'/> 
-                </span>
-              </button>
+            <div className='flex py-10'>
+              <h2 className='text-neutral-50  flex items-center gap-3 hover:text-2xl'> Get In Touch<FaArrowCircleRight/></h2> 
               </div>
               }
 

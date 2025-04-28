@@ -6,7 +6,6 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { cn } from "../../utils/cn";
-import {Link} from "react-router-dom";
 
 const NavBar = ({
   navItems,
