@@ -2,7 +2,7 @@ import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/bento-grid'
 import { gridItems } from './data/Data'
 
-const Grid = () => {
+const Grid = ({onContactClick}) => {
   return (
     <section id='about' className='py-4'>
         <BentoGrid>
@@ -17,6 +17,7 @@ const Grid = () => {
                 imgClassName= {iteam.imgClassName}
                 titleClassName= {iteam.titleClassName}
                 spareImg= {iteam.spareImg}
+                onContactClick={onContactClick}
                 />
             ))
             }

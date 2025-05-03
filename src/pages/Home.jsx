@@ -3,7 +3,7 @@ import { BackgroundBeams } from "../components/ui/BackgroundBeams";
 import StarParticles from "../components/ui/StarParticles";
 import { FaArrowCircleRight, FaLocationArrow } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-const Home = () => {
+const Home = ({onContactClick }) => {
   return (
     <motion.div className='pb-20 pt-36' >
        <StarParticles/>
@@ -21,7 +21,7 @@ const Home = () => {
       
       <p className=' md:tracking-wider my-4 text-sm md:text-lg text-[#d2d0dd] text-center font-Poppins font-bold'>Your Vision, My Code – Let’s Build Something Extraordinary.</p>
       <div className='flex justify-center mt-5'>
-         <button className="relative h-12  overflow-hidden p-[1px] rounded-full text-lg">
+         <button className="relative h-12  overflow-hidden p-[1px] rounded-full text-lg"  onClick={onContactClick}>
                  <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"/>
                  <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-7 py-1 text-sm font-medium  backdrop-blur-3xl">
                  <h2 className='text-white flex items-center gap-3 '> Get In Touch<FaArrowCircleRight/></h2> 

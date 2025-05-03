@@ -29,8 +29,7 @@ export const BentoGridItem = ({
   img ,
   imgClassName,
   titleClassName,
-  descriptionClassName,
-  spareImg
+  onContactClick
 }) => {
   const [copied, setCopied] = useState(false);
 
@@ -90,7 +89,7 @@ export const BentoGridItem = ({
         </div>
         {id === "3" && 
             <div className='flex py-10'>
-              <h2 className='text-neutral-50  flex items-center gap-3 hover:text-2xl'> Get In Touch<FaArrowCircleRight/></h2> 
+              <h2 className='text-neutral-50  flex items-center gap-3 hover:text-2xl' onClick={onContactClick}> Get In Touch<FaArrowCircleRight/></h2> 
               </div>
               }
 
