@@ -60,7 +60,7 @@ export const gridItems = [
       title:'Contact me',
       description:'',
       img:Img3,
-      className: "lg:col-span-1 md:col-span-1 md:row-span-1 xl:h-[20rem]",
+      className: "lg:col-span-1 md:col-span-1 md:row-span-1 xl:h-[19rem]",
       imgClassName: "w-full sm:h-[372px] md:h-[276px] h-fit object-contain mb-[-8rem]",
       titleClassName: "text-white text-lg lg:text-xl mb-2 font-semibold text-center font-generalsans",
       descriptionClassName: "",
@@ -72,7 +72,7 @@ export const gridItems = [
 export const navItems = [
     {
       name: "Home",
-      link: "#",
+      link: "/",
     },
     {
       name: "About",
@@ -80,7 +80,7 @@ export const navItems = [
     },
     {
       name: "Projects",
-      link: "#projects",
+      link: "/#projects",
     },
     {
       name: "Contact",
@@ -134,15 +134,52 @@ export const navItems = [
       dec: "A responsive, modern web application inspired by Netflix, developed to replicate core streaming platform functionalities. This project demonstrates my ability to work with real-world APIs, build interactive UIs, and manage user authentication efficiently.",
       img: P3,
       iconLists: [FaReact,SiCss3,FaFilm,FaJs],
-      link:"/https://claritypix.onrender.com"
+      link:"https://netflix-clone-7b33.onrender.com"
     },
     {
-      id:1,
+      id:4,
       title:" Shelftop — E-Commerce Shopping Cart Website",
-      dec: "Shelftop is a fully functional e-commerce website designed to provide a smooth and responsive shopping experience. Built with a clean UI and a focus on usability, the project simulates a real-world shopping platform with cart management, product listing, and interactive navigation.",
+      dec: "Shelftop is a responsive e-commerce website simulating a real-world shopping platform. It features a clean UI, smooth navigation, product listings, and efficient cart management, all built with a focus on usability and user experience.",
       img: P4,
       iconLists: [FaReact,SiCss3,FaNode,SiMongodb,SiExpress],
-      link:"/https://claritypix.onrender.com"
+      link:"https://shoppingcart-frontend-xxrm.onrender.com"
+    },
+
+  ]
+
+  export const FullProjects = [
+
+    {
+      id:1,
+      title:" ClarityPix – AI Text-to-Image Generator",
+      dec: "ClarityPix is an AI-powered tool that turns user-input text into stunning images using the ClipDrop text-to-image API. Designed with a sleek and user-friendly interface, it enables users to visualize ideas instantly through AI-generated art.",
+      img: P1,
+      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress,GiMagicSwirl],
+      link:"https://claritypix.onrender.com"
+    },
+    {
+      id:2,
+      title:" Bubbly – Real-Time Chat Application",
+      dec: "Bubbly is a modern real-time chat app with 1-on-1 messaging. Built with Socket.io for instant communication, Zustand for state management, and styled using DaisyUI. Messages are stored in MongoDB, and the app is fully responsive.",
+      img: P2,
+      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress,GiMagicSwirl],
+      link:"https://claritypix.onrender.com"
+    },
+       {
+      id:3,
+      title:" Netflix Clone",
+      dec: "A responsive, modern web application inspired by Netflix, developed to replicate core streaming platform functionalities. This project demonstrates my ability to work with real-world APIs, build interactive UIs, and manage user authentication efficiently.",
+      img: P3,
+      iconLists: [FaReact,SiCss3,FaFilm,FaJs],
+      link:"https://netflix-clone-7b33.onrender.com"
+    },
+    {
+      id:4,
+      title:" Shelftop — E-Commerce Shopping Cart Website",
+      dec: "Shelftop is a responsive e-commerce website simulating a real-world shopping platform. It features a clean UI, smooth navigation, product listings, and efficient cart management, all built with a focus on usability and user experience.",
+      img: P4,
+      iconLists: [FaReact,SiCss3,FaNode,SiMongodb,SiExpress],
+      link:"https://shoppingcart-frontend-xxrm.onrender.com"
     },
 
   ]
