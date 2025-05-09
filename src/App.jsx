@@ -13,6 +13,7 @@ import ContactForm from './pages/ContactForm'
 import { useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { FullProjects } from './pages/Projects';
+import NotFound from './pages/NotFound';
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -37,6 +38,7 @@ function App() {
               </>
             }
           />
+          <Route path="*" element={<NotFound />} />
           <Route path="/projects" element={<FullProjects />} />
         </Routes>
       </div>

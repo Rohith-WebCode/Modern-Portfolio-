@@ -1,4 +1,4 @@
-import { FaArrowCircleRight, FaArrowRight } from "react-icons/fa";
+import { FaArrowCircleRight} from "react-icons/fa";
 import { cn } from "../../utils/cn";
 import {CardDemo} from "./GridSkillsImag";
 import {GlobeDemo} from './Gridglobe'
@@ -57,6 +57,7 @@ export const BentoGridItem = ({
           src={img}
           alt={img}
           className={cn(imgClassName,'object-cover object-center')}
+          loading="lazy"
           />
         )}
         {id === '3' && <GlobeDemo/>} 

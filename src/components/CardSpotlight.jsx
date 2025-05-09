@@ -12,12 +12,12 @@ export function CardSpotlightUI() {
       <CardSpotlight className={`w-full md:w-[42rem] my-5 md:my-0 ${data.classNameforcard}`}>
         <div className="flex flex-row">
         <div className="text-neutral-200 mt-4 mr-7 relative z-20">
-        <data.img className="text-5xl" />
+        <data.img className="text-5xl" loading="lazy"/>
         </div>
         <div>
-        <h1 className="text-xl font-bold relative z-20 mt-2 text-white">{data.title}</h1>  
+        <h1 className="text-base md:text-xl font-bold relative z-20 mt-2 text-white">{data.title}</h1>  
  
-       <p className="text-neutral-300 mt-3 relative z-20 text-sm ">
+       <p className="text-neutral-300 mt-3 relative z-20 text-sm">
       {data.description}
        </p>
         </div>
