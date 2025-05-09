@@ -6,7 +6,7 @@ export const FullProjects = () => {
   return (
     <div className='py-28'>
         <h1 className='text-lg md:text-3xl text-neutral-50 text-center font-bold'>Things I’ve <span className='Colorfull-text'>Built</span></h1>
-      <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 md:gap-y-25 mt-10'>
+      <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-10 md:gap-y-20  mt-10'>
          {FullProject.map((project,index)=>(
             <div key={index} 
              className='text-neutral-50 h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
