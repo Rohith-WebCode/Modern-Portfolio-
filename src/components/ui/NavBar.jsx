@@ -38,7 +38,7 @@ const NavBar = ({
       // }
     }
   });
-  console.log("scrollYProgress", scrollYProgress.get(), "prev", scrollYProgress.getPrevious());
+  // console.log("scrollYProgress", scrollYProgress.get(), "prev", scrollYProgress.getPrevious());
 
   return (
     <AnimatePresence mode="wait">

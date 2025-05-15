@@ -9,7 +9,7 @@ const RecentProjects = () => {
     <div className='' id='projects'> 
       <h1 className='text-lg md:text-3xl text-neutral-50 text-center font-bold'>Things I’ve <span className='Colorfull-text'>Built</span></h1>
 
-      <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-10 md:gap-y-20 mt-10'>
+      <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-5 md:gap-y-20 mt-10'>
         {Projects.map((project,index)=>(
           <div key={index} 
           className='text-neutral-50 h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
@@ -43,7 +43,7 @@ const RecentProjects = () => {
 
       </div>
       
-      <div className='flex justify-center py-28'>
+      <div className='flex justify-center py-15'>
       <Link to="/projects"><h2 className='text-[#afb0b6]  flex items-center gap-3 '> See more projects<FaArrowCircleRight/></h2> </Link>
       </div>
 

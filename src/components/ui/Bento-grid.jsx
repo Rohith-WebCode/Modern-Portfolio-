@@ -35,8 +35,7 @@ export const BentoGridItem = ({
 
 
   const handleCopy = () => {
-    console.log("Clicked copy button");
-    const text = "RohithPrakash19@gmail.com";
+    const text = "itsrohithprakash@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
 
@@ -78,7 +77,7 @@ export const BentoGridItem = ({
                 <FaCopy className="text-xl text-[#afb0b6]" />
               )}
               <p className=" text-xs md:text-lg lg:text-base font-medium text-[#afb0b6]">
-                rohithprakash19@gmail.com
+                itsrohithprakash@gmail.com
               </p>
             </div>
           

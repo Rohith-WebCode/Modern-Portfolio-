@@ -40,7 +40,6 @@ export const InfiniteMovingCards = ({
       }
     }
   };
-  console.log("Start:", start);
   const getSpeed = () => {
     if (containerRef.current) {
       if (speed === "fast") {

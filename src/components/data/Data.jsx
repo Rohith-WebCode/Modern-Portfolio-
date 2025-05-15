@@ -4,15 +4,18 @@ import Img3 from '../../assets/grid4.png'
 import { FaLaptopCode, FaReact,FaJs,FaNode,FaHtml5,FaCss3,FaPhp,FaFilm  } from 'react-icons/fa';       
 import { MdPhoneIphone } from 'react-icons/md';      
 import { BiCodeAlt } from 'react-icons/bi';          
-import P1 from '../../assets/project9_img.png'
-import P2 from '../../assets/project11_img.png'
-import P3 from '../../assets/project8_img.png'
-import P4 from '../../assets/project1_img.png'
-import P5 from '../../assets/project10_img.png'
-import P6 from '../../assets/project12_img.png'
+// import P1 from '../../assets/project9_img.png'
+// import P2 from '../../assets/project11_img.png'
+// import P3 from '../../assets/project8_img.png'
+// import P4 from '../../assets/project1_img.png'
+// import P5 from '../../assets/project10_img.png'
+// import P6 from '../../assets/project12_img.png'
 import { SiTailwindcss,SiMongodb,SiCss3,SiExpress, SiMysql, SiBootstrap, SiHtml5 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { GiMagicSwirl } from "react-icons/gi";
+import { HiOutlineLightBulb } from "react-icons/hi";
+import { FaPencilRuler } from "react-icons/fa";
+import { FaRocket } from "react-icons/fa";
 export const gridItems = [
     
     { 
@@ -203,3 +206,23 @@ export const navItems = [
     },
 
   ]
+  
+  export const MyApproach = [
+    {
+      icon: <HiOutlineLightBulb/>,
+      title: "Discover",
+      description: "Understanding your vision, goals, and audience to lay the perfect foundation",
+      // img: FaLaptopCode, // example icon component
+      // className: "md:top-0 md:left-0", // top-left
+    },
+    {
+      icon:<FaPencilRuler/>,
+      title: "Design",
+      description: "Crafting intuitive, aesthetic, and user-focused digital experiences.",
+    },
+    {
+      icon:<FaRocket />,
+      title: "Deliver",
+      description: "Building and launching polished, high-performing websites ready to make an impact.",
+    },
+  ];
