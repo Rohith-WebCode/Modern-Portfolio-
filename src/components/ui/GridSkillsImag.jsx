@@ -72,19 +72,19 @@ const Skeleton = () => {
       className="p-8 overflow-hidden h-full relative flex items-center justify-center">
       <div className="flex flex-row shrink-0 justify-center items-center gap-2">
         <Container className="h-8 w-8 circle-1">
-          <FaJs className="h-4 w-4 dark:text-white" />
+          <FaJs className="h-4 w-4 text-white" />
         </Container>
         <Container className="h-12 w-12 circle-2">
-          <FaNode className="h-6 w-6 dark:text-white" />
+          <FaNode className="h-6 w-6 text-white" />
         </Container>
         <Container className="circle-3">
-          <FaReact className="h-8 w-8 dark:text-white" />
+          <FaReact className="h-8 w-8 text-white" />
         </Container>
         <Container className="h-12 w-12 circle-4">
-          <SiTailwindcss className="h-6 w-6 dark:text-white" />
+          <SiTailwindcss className="h-6 w-6 text-white" />
         </Container>
         <Container className="h-8 w-8 circle-5">
-          <SiMongodb className="h-4 w-4 dark:text-white" />
+          <SiMongodb className="h-4 w-4 text-white" />
         </Container>
       </div>
       <div
