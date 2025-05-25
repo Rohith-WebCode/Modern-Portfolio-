@@ -64,7 +64,7 @@ export const BentoGridItem = ({
       {id==="2" && <CardDemo/>}
       </div>
         <div
-          className={cn(titleClassName,`mt-2 mb-2 font-bold text-neutral-600 dark:text-neutral-200`)}>
+          className={cn(titleClassName,`mt-2 mb-2 font-bold text-neutral-200`)}>
          <h1>{title}</h1> 
         </div>
         {  id === "5" && 
