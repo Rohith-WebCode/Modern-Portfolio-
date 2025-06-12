@@ -10,7 +10,7 @@ import { BiCodeAlt } from 'react-icons/bi';
 // import P4 from '../../assets/project1_img.png'
 // import P5 from '../../assets/project10_img.png'
 // import P6 from '../../assets/project12_img.png'
-import { SiTailwindcss,SiMongodb,SiCss3,SiExpress, SiMysql, SiBootstrap, SiHtml5 } from "react-icons/si";
+import { SiTailwindcss,SiMongodb,SiCss3,SiExpress, SiMysql, SiBootstrap, SiHtml5, SiCloudinary, SiVercel } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { GiMagicSwirl } from "react-icons/gi";
 import { HiOutlineLightBulb } from "react-icons/hi";
@@ -137,11 +137,11 @@ export const navItems = [
     },
        {
       id:3,
-      title:" Netflix Clone",
-      dec: "A responsive, modern web application inspired by Netflix, developed to replicate core streaming platform functionalities. This project demonstrates my ability to work with real-world APIs, build interactive UIs, and manage user authentication efficiently.",
-      img: 'https://res.cloudinary.com/dgrxeqayx/image/upload/v1746627547/project8_img_wsjtk7.png',
-      iconLists: [FaReact,SiCss3,FaFilm,FaJs],
-      link:"https://netflix-clone-7b33.onrender.com"
+      title:"Logix — Logistics Website",
+      dec: "A modern and responsive frontend design inspired by a Webflow logistics theme. This project showcases real-time motion animations, a clean layout, and strong visual hierarchy — all custom-built using HTML, Tailwind CSS, and pure CSS animations (no frameworks or libraries).",
+      img: 'https://res.cloudinary.com/dgrxeqayx/image/upload/v1749704043/mediamodifier_image_1_loitu5.png',
+      iconLists: [FaHtml5,SiTailwindcss,SiCloudinary,SiVercel],
+      link:"https://logix-pied.vercel.app"
     },
     {
       id:4,
@@ -203,6 +203,14 @@ export const navItems = [
       img: 'https://res.cloudinary.com/dgrxeqayx/image/upload/v1746627196/project12_img_pxrspe.png',
       iconLists: [FaReact,SiTailwindcss,TbBrandFramerMotion],
       link:"https://shoppingcart-frontend-xxrm.onrender.com"
+    },
+      {
+      id:7,
+      title:"Logix — Logistics Website",
+      dec: "A modern and responsive frontend design inspired by a Webflow logistics theme. This project showcases real-time motion animations, a clean layout, and strong visual hierarchy — all custom-built using HTML, Tailwind CSS, and pure CSS animations (no frameworks or libraries).",
+      img: 'https://res.cloudinary.com/dgrxeqayx/image/upload/v1749704043/mediamodifier_image_1_loitu5.png',
+      iconLists: [FaHtml5,SiTailwindcss,SiCloudinary,SiVercel],
+      link:"https://logix-pied.vercel.app"
     },
 
   ]
