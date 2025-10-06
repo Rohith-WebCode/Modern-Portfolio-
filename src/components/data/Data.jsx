@@ -4,18 +4,13 @@ import Img3 from '../../assets/grid4.png'
 import { FaLaptopCode, FaReact,FaJs,FaNode,FaHtml5,FaCss3,FaPhp,FaFilm  } from 'react-icons/fa';       
 import { MdPhoneIphone } from 'react-icons/md';      
 import { BiCodeAlt } from 'react-icons/bi';          
-// import P1 from '../../assets/project9_img.png'
-// import P2 from '../../assets/project11_img.png'
-// import P3 from '../../assets/project8_img.png'
-// import P4 from '../../assets/project1_img.png'
-// import P5 from '../../assets/project10_img.png'
-// import P6 from '../../assets/project12_img.png'
 import { SiTailwindcss,SiMongodb,SiCss3,SiExpress, SiMysql, SiBootstrap, SiHtml5, SiCloudinary, SiVercel } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { GiMagicSwirl } from "react-icons/gi";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { FaPencilRuler } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa";
+import { GiAbstract066 } from "react-icons/gi";
 export const gridItems = [
     
     { 
@@ -151,6 +146,22 @@ export const navItems = [
       iconLists: [FaReact,SiTailwindcss,TbBrandFramerMotion],
       link:"https://shoppingcart-frontend-xxrm.onrender.com"
     },
+    {
+      id:5,
+      title:"Personal Finance Tracker",
+      dec:'A full-stack finance management web app built with React.js, Node.js, Express, and MongoDB. It allows users to track income and expenses, manage transactions, and view insights through an intuitive dashboard with a clean, responsive design.',
+      img: 'https://res.cloudinary.com/dgrxeqayx/image/upload/v1759587120/Screenshot_80_wgpze4.png',
+      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress],
+      link:"https://my-finance-log.vercel.app"
+    },
+    {
+      id:6,
+      title:"Mojito Landing Page",
+      dec:'A visually appealing landing page designed with HTML, CSS, and GSAP to showcase a refreshing cocktail brand. It features smooth animations, engaging transitions, responsive layout, and highlights creativity in front-end design.',
+      img: 'https://res.cloudinary.com/dgrxeqayx/image/upload/v1759587148/Screenshot_81_ejtopt.png',
+      iconLists: [FaReact,SiTailwindcss,GiAbstract066 ],
+      link:"https://mojitococktail.netlify.app"
+    },
 
   ]
 
@@ -212,7 +223,22 @@ export const navItems = [
       iconLists: [FaHtml5,SiTailwindcss,SiCloudinary,SiVercel],
       link:"https://logix-pied.vercel.app"
     },
-
+    {
+      id:8,
+      title:"Personal Finance Tracker",
+      dec:'A full-stack finance management web app built with React.js, Node.js, Express, and MongoDB. It allows users to track income and expenses, manage transactions, and view insights through an intuitive dashboard with a clean, responsive design.',
+      img: 'https://res.cloudinary.com/dgrxeqayx/image/upload/v1759587120/Screenshot_80_wgpze4.png',
+      iconLists: [FaReact,SiTailwindcss,FaNode,SiMongodb,SiExpress],
+      link:"https://my-finance-log.vercel.app"
+    },
+    {
+      id:9,
+      title:"Mojito Landing Page",
+      dec:'A visually appealing landing page designed with HTML, CSS, and GSAP to showcase a refreshing cocktail brand. It features smooth animations, engaging transitions, responsive layout, and highlights creativity in front-end design.',
+      img: 'https://res.cloudinary.com/dgrxeqayx/image/upload/v1759587148/Screenshot_81_ejtopt.png',
+      iconLists: [FaReact,SiTailwindcss,GiAbstract066 ],
+      link:"https://mojitococktail.netlify.app"
+    },
   ]
   
   export const MyApproach = [
